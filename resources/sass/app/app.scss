@@ -8,11 +8,11 @@
     @apply scroll-smooth overflow-x-hidden;
   }
   body {
-    @apply overflow-x-hidden bg-stone-100 bg-opacity-50 selection:bg-sky-400 selection:text-yellow-300;
+    @apply overflow-x-hidden bg-stone-200 bg-opacity-50 selection:bg-sky-400 selection:text-yellow-300;
     background-image: url("/images/noise.svg");
   }
   h1 {
-    @apply text-4xl md:text-5xl leading-tight;
+    @apply text-5xl leading-tight;
   }
   h2 {
     @apply text-3xl md:text-4xl leading-tight;

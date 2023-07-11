@@ -1,9 +1,9 @@
 <title>@yield('title', config('website.name', 'Jun Teoh | Frontend &amp; UI Developer') )</title>
 <meta name="description" content="@yield('description', 'A frontend developer who is passionate about ‍🧑‍💻 coding, 🎨 design. Also, I am learning 🇯🇵 Japanese and trying to get better at it.' )">
-<meta name="author" content="@yield('author', 'Jun Teoh | Frontend &amp; UI Developer')">
+<meta name="author" content="@yield('author', 'Jun Teoh | Frontend & UI Developer')">
 <meta name="theme-color" content="@yield('meta-theme-color', '#fdfdfd')">
 <meta property="og:url" content="@yield('og-url', 'https://jun-teoh-portfolio.vercel.app/')"/>
-<meta property="og:title" content="@yield('title', 'Jun Teoh | Frontend &amp; UI Developer')"/>
+<meta property="og:title" content="@yield('title', 'Jun Teoh | Frontend & UI Developer')"/>
 <meta property="og:description" content="@yield('description', 'A frontend developer who is passionate about ‍🧑‍💻 coding, 🎨 design. Also, I am learning 🇯🇵 Japanese and trying to get better at it.')"/>
 <meta property="og:image" content="@yield('og-image', asset('images/og-cover.png'))"/>
 <meta property="og:image:width" content="1200"/>

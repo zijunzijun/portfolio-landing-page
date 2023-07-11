@@ -2,22 +2,22 @@
 
 @section('main')
     <div class="relative w-screen h-screen flex items-center overflow-hidden min-h-fit">
-        <div class="absolute top-0 -left-[5%] w-[50%] mix-blend-multiply filter blur-2xl opacity-20 animate-blob">
+        <div class="absolute bottom-[50%] -left-[5%] w-[60%] md:w-[50%] mix-blend-multiply filter blur-2xl opacity-20 animate-blob">
             <div class="w-full pt-[100%] rounded-full bg-cyan-400"></div>
         </div>
 
         <div
-                class="absolute -top-[10%] right-[5%] w-[50%] mix-blend-multiply filter blur-2xl opacity-20 animate-blob animation-delay-2000">
+                class="absolute bottom-[50%] right-[5%] w-[55%] md:w-[30%] mix-blend-multiply filter blur-2xl opacity-20 animate-blob animation-delay-2000">
             <div class="w-full pt-[100%] rounded-full bg-purple-300"></div>
         </div>
 
         <div
-                class="absolute -bottom-[15%] -right-[10%] w-[50%] mix-blend-multiply filter blur-xl opacity-20 animate-blob">
+                class="absolute top-[50%] -right-[10%] w-[55%] md:w-[35%] mix-blend-multiply filter blur-xl opacity-20 animate-blob">
             <div class="w-full pt-[100%] rounded-full bg-teal-300"></div>
         </div>
 
         <div
-                class="absolute -bottom-[15%] left-[5%] w-[50%] mix-blend-multiply filter blur-2xl opacity-20 animate-blob animation-delay-4000">
+                class="absolute top-[50%] left-[5%] w-[55%] md:w-[30%] mix-blend-multiply filter blur-2xl opacity-20 animate-blob animation-delay-4000">
             <div class="w-full pt-[100%] rounded-full bg-lime-200"></div>
         </div>
         <div class="relative w-full bg-white border-t border-b border-gray-100">
@@ -30,19 +30,21 @@
                         A frontend developer who is passionate about ‍🧑‍💻 coding, 🎨 design.
                         <br>
                         And I just deployed my portfolio site on
-                        <a href="https://jun-teoh-portfolio.vercel.app/"
-                           class="hover:opacity-70">
+                        <span class="inline-block whitespace-nowrap">
+                            <a href="https://jun-teoh-portfolio.vercel.app/"
+                               class="hover:opacity-70">
                         <span class="inline-flex items-center font-medium text-gray-900"><svg
                                     class="h-4"
                                     viewBox="0 0 76 65"
                                     fill="none" xmlns="http://www.w3.org/2000/svg"><path
                                         d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#000000"/></svg> Vercel</span>
                         </a>.
+                        </span>
                     </p>
                 </div>
                 <div class="relative my-4">
                     <div class="absolute inset-0 z-0 rounded-lg bg-gradient-to-r from-cyan-400 to-blue-500
-            after:content-['*']  after:bg-gradient-to-r after:from-cyan-400 after:to-blue-400 after:filter after:blur-2xl after:absolute  after:inset-0  after:border-8  after:border-transparent
+            after:content-['*']  after:bg-gradient-to-r after:from-cyan-400 after:to-blue-400 after:filter after:blur-2xl after:absolute  after:inset-0  after:border-8  after:border-transparent after:opacity-20 md:after:opacity-100
             "></div>
                     <a href="https://jun-teoh-portfolio.vercel.app/"
                        class="group relative flex items-center z-10 rounded-lg text-lg shadow-custom bg-white bg-clip-padding border border-transparent py-2.5 pl-6 hover:pr-2 hover:text-white hover:bg-transparent transition-all">
