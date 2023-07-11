@@ -13,6 +13,7 @@ module.exports = {
             },
             animation: {
                 blob: "blob 10s infinite",
+                boundRight: "boundRight 1s infinite",
             },
             keyframes: {
                 blob: {
@@ -28,6 +29,16 @@ module.exports = {
                     "100%": {
                         transform: "translate(0px, 0px) scale(1)",
                     },
+                },
+                boundRight: {
+                    "0%, 100%": {
+                        transform: "translateX(25%)",
+                        'animation-timing-function': "cubic-bezier(0.8, 0, 1, 1)"
+                    },
+                    "50%": {
+                        transform: "translateX(0)",
+                        'animation-timing-function': "cubic-bezier(0, 0, 9,2, 1)"
+                    }
                 }
             },
         },

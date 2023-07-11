@@ -47,12 +47,11 @@
             after:content-['*']  after:bg-gradient-to-r after:from-cyan-400 after:to-blue-400 after:filter after:blur-2xl after:absolute  after:inset-0  after:border-8  after:border-transparent after:opacity-20 md:after:opacity-100
             "></div>
                     <a href="https://jun-teoh-portfolio.vercel.app/"
-                       class="group relative flex items-center z-10 rounded-lg text-lg shadow-custom bg-white bg-clip-padding border border-transparent py-2.5 pl-6 hover:pr-2 hover:text-white hover:bg-transparent transition-all">
-                        <span>Enter Site</span>
+                       class="group relative flex items-center z-10 rounded-lg text-lg shadow-custom bg-white bg-clip-padding border border-transparent py-2.5 pl-6 pr-3 hover:text-white hover:bg-transparent transition-all">
+                        <span class="inline-block">Enter Site</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                              stroke="currentColor"
-                             class="w-5 h-5 md:w-6 md:h-6 text-white lg:transform lg:-translate-x-1 lg:opacity-0 lg:transition-all group-hover:ml-1
-                 group-hover:translate-x-0 group-hover:opacity-100 invisible group-hover:visible">
+                             class="w-5 h-5 md:w-6 md:h-6 animate-boundRight">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
                         </svg>
                     </a>
